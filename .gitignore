@@ -1,0 +1,15 @@
+.buildpath
+.classpath
+.project
+.settings
+velocity.log
+bin
+target
+*.idea
+*.ids
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.orig
+.externalToolBuilders

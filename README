@@ -1,0 +1,18 @@
+Source code for presentation at Codemotion 2012
+-----------------------------------------------
+
+dtd-designer
+------------
+web application module for the designer, starts a Jetty instance at ports:
+- HTTP  8081
+- HTTPS 8444
+and provides a static web server to design and display wicket templates without processing by Wicket
+use mvn jetty:run or launch Start main
+
+dtd-developer
+------------
+web application module for the designer, starts a Jetty instance at ports:
+- HTTP  8080
+- HTTPS 8443
+provides the full application processing templates from the designer application in addition to to the usual locations.
+use mvn jetty:run or launch Start main

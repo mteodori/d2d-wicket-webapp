@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns:h="http://java.sun.com/jsf/html">
+<body>
+
+<h1>Sign Up</h1>
+
+<h:form>
+  <h:messages/>
+  <p>
+    <label for="email">Email: </label><br/>
+    <h:inputText value="#{user.email}"/><br/>
+  </p>
+  <p>
+    <label for="password">Password: </label><br/>
+    <h:inputText value="#{user.password}"/><br/>
+  </p>
+  <p>
+    <label for="confirm">Password confirmation: </label><br/>
+    <h:inputText value="#{user.confirmPassword}"/><br/>
+  </p>
+  <p class="button"><h:commandButton action="#{user.create()}" value="Create User"/></p>
+</form>
+
+</body>
+</html>

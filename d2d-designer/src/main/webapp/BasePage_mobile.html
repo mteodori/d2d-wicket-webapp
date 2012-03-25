@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <title>Apache Wicket Quickstart</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" />
+        <script src="js/jquery-1.6.4.min.js"></script>
+        <script src="js/jquery.mobile-1.0.1.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" data-add-back-btn="true">
+            <div data-role="header">
+                <h1>Apache Wicket</h1>
+            </div>
+            <div data-role="content">
+                <img src="logo.png" width="50px" height="50px" alt="Wicket Logo" />
+                <wicket:child />
+            </div>
+            <div data-role="footer">
+                Wicket version is: <wicket:container wicket:id="version">1.5-SNAPSHOT</wicket:container> for mobile
+            </div>
+        </div>
+    </body>
+</html>
